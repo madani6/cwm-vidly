@@ -20,7 +20,7 @@ class MoviesTable extends Component {
         <thead>
           <tr>
             <th onClick={() => this.raiseSort("title")}>Title</th>
-            <th onClick={() => this.raiseSort("genre.nane")}>Genre</th>
+            <th onClick={() => this.raiseSort("genre.name")}>Genre</th>
             <th onClick={() => this.raiseSort("numberInStock")}>Stock</th>
             <th onClick={() => this.raiseSort("dailyRentaRate")}>Rate</th>
             <th />
