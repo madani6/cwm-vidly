@@ -30,4 +30,5 @@ class TableBody extends Component {
     );
   }
 }
+
 export default TableBody;
